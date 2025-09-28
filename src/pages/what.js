@@ -113,7 +113,7 @@ export default function WhatIsWeb3() {
                 </ExternalLink>
               </li>
               <li>
-                <ExternalLink href="https://society.robinsloan.com/archive/notes-on-web3/">
+                <ExternalLink href="https://www.robinsloan.com/lab/notes-on-web3/">
                   "Notes on Web3"
                 </ExternalLink>
                 <span> by </span>
@@ -229,12 +229,6 @@ export default function WhatIsWeb3() {
                 Web3 and crypto skeptics
               </ExternalLink>
               <span> on Twitter</span>
-            </li>
-            <li>
-              <span>My </span>
-              <ExternalLink href="https://www.mollywhite.net/reading/blockchain">
-                blockchain reading list
-              </ExternalLink>
             </li>
             <li>
               <ExternalLink href="https://web3.lifeitself.us/guide">

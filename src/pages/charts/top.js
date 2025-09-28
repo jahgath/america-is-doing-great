@@ -1,18 +1,18 @@
-import { useState } from "react";
 import { useRouter } from "next/router";
+import { useState } from "react";
 import { useQuery } from "react-query";
 
 import PropTypes from "prop-types";
 import { EntryPropType } from "../../js/entry";
 
-import { formatDollarString, humanizeDate } from "../../js/utilities";
+import { format } from "date-fns";
 import { getEntriesForLeaderboard } from "../../db/leaderboard";
 import { getDateRangeFromQueryParams } from "../../js/datepicker";
-import { format } from "date-fns";
+import { formatDollarString, humanizeDate } from "../../js/utilities";
 
 import Link from "next/link";
-import CustomHead from "../../components/CustomHead";
 import BackBar from "../../components/BackBar";
+import CustomHead from "../../components/CustomHead";
 import SimpleHeader from "../../components/SimpleHeader";
 import DatePicker from "../../components/charts/DatePicker";
 import LeaderboardPaginator from "../../components/charts/LeaderboardPaginator";
