@@ -8,3 +8,5 @@ Suggest an [addition](https://github.com/molly/web3-is-going-great/issues/new?as
 
 If you want to make a similar-looking timeline without all the bells and whistles, you might like my
 [static timeline generator](https://github.com/molly/static-timeline-generator).
+
+Excelsior
